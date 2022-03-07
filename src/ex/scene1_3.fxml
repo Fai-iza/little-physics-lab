@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ex.Scene1_3Controller">
+   <children>
+      <Pane layoutX="-1.0" layoutY="-3.0" prefHeight="673.0" prefWidth="1021.0" style="-fx-background-color: bcaa99;">
+         <children>
+            <ImageView fitHeight="533.0" fitWidth="614.0" layoutX="-36.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@quiz1.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="690.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tools" wrappingWidth="74.0755615234375">
+               <font>
+                  <Font name="MV Boli" size="36.0" />
+               </font>
+            </Text>
+            <HBox layoutX="186.0" layoutY="571.0" prefHeight="0.0" prefWidth="343.0" spacing="500.0">
+               <children>
+                  <Button blendMode="DARKEN" mnemonicParsing="false" prefHeight="39.0" prefWidth="55.0">
+                     <graphic>
+                        <ImageView fitHeight="85.0" fitWidth="72.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@left.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button blendMode="DARKEN" mnemonicParsing="false" prefHeight="94.0" prefWidth="92.0">
+                     <graphic>
+                        <ImageView fitHeight="80.0" fitWidth="74.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@right.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <ImageView fitHeight="109.0" fitWidth="173.0" layoutX="831.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@tt.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="497.0" fitWidth="396.0" layoutX="551.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@to.png" />
+               </image>
+            </ImageView>
+            <Button blendMode="DARKEN" layoutX="345.0" layoutY="447.0" mnemonicParsing="false" onAction="#pause" prefHeight="54.0" prefWidth="60.0">
+               <graphic>
+                  <ImageView fitHeight="58.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@st.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button blendMode="DARKEN" cache="true" cacheHint="QUALITY" layoutX="242.0" layoutY="428.0" mnemonicParsing="false" onAction="#start" prefHeight="39.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fitHeight="93.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@qq.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button blendMode="DARKEN" layoutX="138.0" layoutY="437.0" mnemonicParsing="false" onAction="#redo" prefHeight="71.0" prefWidth="90.0">
+               <graphic>
+                  <ImageView fitHeight="73.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button blendMode="DARKEN" layoutX="1.0" layoutY="7.0" mnemonicParsing="false" onAction="#sound" prefHeight="91.0" prefWidth="125.0">
+               <graphic>
+                  <ImageView fitHeight="85.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@s.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Text fill="WHITE" layoutX="229.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pendulum">
+               <font>
+                  <Font name="MV Boli" size="24.0" />
+               </font>
+            </Text>
+            <Button blendMode="DARKEN" layoutX="108.0" layoutY="3.0" mnemonicParsing="false" onAction="#home" prefHeight="72.0" prefWidth="100.0">
+               <graphic>
+                  <ImageView fitHeight="94.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@h.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ComboBox fx:id="comb" accessibleRole="IMAGE_VIEW" layoutX="643.0" layoutY="147.0" onAction="#handleplanets_comb" prefWidth="150.0" promptText="comb" style="-fx-background-color: #a3806a;" />
+            <ImageView fx:id="ball" fitHeight="91.0" fitWidth="39.0" layoutX="713.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@p1-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="string" fitHeight="177.0" fitWidth="51.0" layoutX="707.0" layoutY="265.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@p2-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="wirestring" fitHeight="24.0" fitWidth="192.0" layoutX="656.0" layoutY="454.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@p3-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Pane fx:id="pane" layoutX="125.0" layoutY="183.0" prefHeight="259.0" prefWidth="315.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

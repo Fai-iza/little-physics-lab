@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1000.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ex.mapex3Controller">
+   <stylesheets>
+      <URL value="@mapex1.css" />
+   </stylesheets>
+   <children>
+      <Pane layoutX="-2.0" layoutY="-1.0" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-color: ceb891; -fx-border-color: a48144; -fx-border-width: 10;">
+         <children>
+            <ImageView fitHeight="156.0" fitWidth="604.0" layoutX="186.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@AdobeStock_272995543-removebg-preview%20(1).png" />
+               </image>
+            </ImageView>
+            <Button layoutX="69.0" layoutY="84.0" mnemonicParsing="false" style="-fx-background-color: ceb891;" />
+            <Button layoutX="305.0" layoutY="301.0" mnemonicParsing="false" prefHeight="108.0" prefWidth="160.0" style="-fx-background-color: ceb891;" />
+            <Button layoutX="607.0" layoutY="287.0" mnemonicParsing="false" prefHeight="114.0" prefWidth="160.0" style="-fx-background-color: ceb891;" />
+            <Button layoutX="67.0" layoutY="566.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="129.0" style="-fx-background-color: ceb891;" />
+            <Button layoutX="772.0" layoutY="560.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="97.0" style="-fx-background-color: ceb891;" />
+            <Button layoutX="795.0" layoutY="29.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="163.0" style="-fx-background-color: ceb891;">
+               <graphic>
+                  <ImageView fitHeight="153.0" fitWidth="173.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@right.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Text fill="#f1f8f7" layoutX="276.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Resistivity of wire" wrappingWidth="634.0198669433594">
+               <font>
+                  <Font name="MV Boli" size="40.0" />
+               </font>
+            </Text>
+            <Button layoutX="191.0" layoutY="237.0" mnemonicParsing="false" onAction="#learn" style="-fx-background-color: ceb891;">
+               <graphic>
+                  <ImageView fitHeight="153.0" fitWidth="173.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@WhatsApp_Image_2021-11-19_at_3.27.19_AM-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="624.0" layoutY="233.0" mnemonicParsing="false" onAction="#test" style="-fx-background-color: ceb891;">
+               <graphic>
+                  <ImageView fitHeight="153.0" fitWidth="173.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@_-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="88.0" layoutY="435.0" mnemonicParsing="false" onAction="#explain" prefHeight="165.0" prefWidth="125.0" style="-fx-background-color: ceb891;">
+               <graphic>
+                  <ImageView fitHeight="153.0" fitWidth="173.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@removebg-preview.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="61.0" layoutY="585.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@x.png" />
+               </image>
+            </ImageView>
+            <Text fill="#f0982f" layoutX="102.0" layoutY="620.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3-Explain " wrappingWidth="282.00927256885916">
+               <font>
+                  <Font name="MV Boli" size="24.0" />
+               </font>
+            </Text>
+            <Button layoutX="742.0" layoutY="435.0" mnemonicParsing="false" onAction="#experment" prefHeight="165.0" prefWidth="125.0" style="-fx-background-color: ceb891;">
+               <graphic>
+                  <ImageView fitHeight="153.0" fitWidth="173.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@removebg-preview22.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="743.0" layoutY="595.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@x.png" />
+               </image>
+            </ImageView>
+            <Text fill="#f0982f" layoutX="767.0" layoutY="629.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4-Experiment" wrappingWidth="151.14803926977777">
+               <font>
+                  <Font name="MV Boli" size="22.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="184.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@x.png" />
+               </image>
+            </ImageView>
+            <Text fill="#f0982f" layoutX="227.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1-Learning" wrappingWidth="135.4027084592309">
+               <font>
+                  <Font name="MV Boli" size="23.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="595.0" layoutY="388.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@x.png" />
+               </image>
+            </ImageView>
+            <Text fill="#f0982f" layoutX="651.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2-Exam" wrappingWidth="450.95248262915277">
+               <font>
+                  <Font name="MV Boli" size="23.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="213.0" fitWidth="338.0" layoutX="363.0" layoutY="437.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@d.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Button layoutX="24.0" layoutY="39.0" mnemonicParsing="false" onAction="#backToMAIN" style="-fx-background-color: ceb891;">
+         <graphic>
+            <ImageView fitHeight="153.0" fitWidth="173.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@left.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

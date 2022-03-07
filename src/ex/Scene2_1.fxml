@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ex.Scene2_1Controller">
+   <children>
+      <Pane layoutX="10.0" layoutY="10.0" prefHeight="650.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="692.0" fitWidth="1025.0" layoutX="-21.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@AdobeStock_194993665.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="119.0" fitWidth="344.0" layoutX="343.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@x.png" />
+               </image>
+            </ImageView>
+            <Text fill="#b95236" layoutX="453.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Newton ">
+               <font>
+                  <Font name="MV Boli" size="30.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="98.0" fitWidth="85.0" layoutX="837.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Newton.png" />
+               </image>
+            </ImageView>
+            <Text fill="#522f2a" layoutX="458.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="His book Philosophiæ Naturalis Principia Mathematica (Mathematical Principles of Natural Philosophy), first published in 1687, established classical mechanics. Newton also made seminal contributions to optics, and shares credit with German mathematician Gottfried Wilhelm Leibniz for developing infinitesimal calculus." wrappingWidth="389.4999338785806">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#c7b291" layoutX="458.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sir Isaac Newton PRS (25 December 1642 – 20 March 1726/27la) was an English mathematician, physicist, astronomer, theologian, and author (described in his time as a &quot;natural philosopher&quot;) widely recognised as one of the greatest mathematicians, physicists, and most influential scientists of all time. He was a key figure in the philosophical revolution known as the Enlightenment. " wrappingWidth="431.51039123535156">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <Button blendMode="DARKEN" mnemonicParsing="false" onAction="#home" prefHeight="91.0" prefWidth="103.0">
+               <graphic>
+                  <ImageView fitHeight="89.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@h.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <HBox layoutX="186.0" layoutY="571.0" prefHeight="0.0" prefWidth="343.0" spacing="500.0">
+               <children>
+                  <Button blendMode="DARKEN" mnemonicParsing="false" onAction="#goBack" prefHeight="39.0" prefWidth="55.0">
+                     <graphic>
+                        <ImageView fitHeight="66.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@left.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button blendMode="DARKEN" mnemonicParsing="false" prefHeight="94.0" prefWidth="92.0">
+                     <graphic>
+                        <ImageView fitHeight="63.0" fitWidth="58.0" opacity="0.01" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@right.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <ImageView fitHeight="85.0" fitWidth="101.0" layoutX="820.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@s.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="837.0" layoutY="52.0" mnemonicParsing="false" onAction="#sound" opacity="0.0" prefHeight="54.0" prefWidth="62.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

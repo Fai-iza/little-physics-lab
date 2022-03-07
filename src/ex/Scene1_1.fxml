@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ex.Scene1_1Controller">
+   <children>
+      <Pane prefHeight="650.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="672.0" fitWidth="1041.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@AdobeStock_194993665.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="119.0" fitWidth="413.0" layoutX="313.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@x.png" />
+               </image>
+            </ImageView>
+            <Text fill="#b95236" layoutX="429.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="leon foucault" textAlignment="CENTER">
+               <font>
+                  <Font name="MV Boli" size="30.0" />
+               </font>
+            </Text>
+            <Text fill="#c7b291" layoutX="474.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="After an education received chiefly at home, he studied medicine, which he abandoned in favour of physics due to a blood phobia. He first directed his attention to the improvement of Louis Daguerre's photographic processes. For three years he was experimental assistant to Alfred Donné (1801–1878) in his course of lectures on microscopic anatomy." wrappingWidth="404.1889419555664">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fill="#522f2a" layoutX="469.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="With Hippolyte Fizeau he carried out a series of investigations on the intensity of the light of the sun, as compared with that of carbon in the arc lamp, and of lime in the flame of the oxyhydrogen blowpipe; on the interference of infrared radiation, and of light rays differing greatly in lengths of path; and on the chromatic polarization of light." wrappingWidth="379.9721221923828">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fill="#522f2a" layoutX="469.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="born Jean Bernard Léon Foucault  18 September 1819 – 11 February 1868,was a French physicist best known for his demonstration of the Foucault pendulum, a device demonstrating the effect of the Earth's rotation. He also made an early measurement of the speed of light, discovered eddy currents, and is credited with naming the gyroscope." wrappingWidth="430.3996124267578">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="66.0" fitWidth="119.0" layoutX="825.0" layoutY="394.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@lon2.png" />
+               </image>
+            </ImageView>
+            <Button blendMode="DARKEN" mnemonicParsing="false" onAction="#home" prefHeight="91.0" prefWidth="103.0">
+               <graphic>
+                  <ImageView fitHeight="89.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@h.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <HBox layoutX="186.0" layoutY="571.0" prefHeight="0.0" prefWidth="343.0" spacing="500.0">
+               <children>
+                  <Button blendMode="DARKEN" mnemonicParsing="false" onAction="#goBack" prefHeight="39.0" prefWidth="55.0">
+                     <graphic>
+                        <ImageView fitHeight="66.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@left.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button blendMode="DARKEN" mnemonicParsing="false" prefHeight="94.0" prefWidth="92.0">
+                     <graphic>
+                        <ImageView fitHeight="63.0" fitWidth="58.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@right.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <ImageView fitHeight="85.0" fitWidth="101.0" layoutX="830.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@s.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="842.0" layoutY="70.0" mnemonicParsing="false" onAction="#sound" opacity="0.0" prefHeight="54.0" prefWidth="72.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

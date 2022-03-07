@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ex.Scene1Controller">
+   <children>
+      <Pane layoutX="-5.0" layoutY="1.0" prefHeight="650.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="683.0" fitWidth="1013.0" layoutY="-9.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@AdobeStock_194993665.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="136.0" fitWidth="484.0" layoutX="245.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@x.png" />
+               </image>
+            </ImageView>
+            <Text fill="#b95236" layoutX="313.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Experiment 1: Pendulum" textAlignment="CENTER">
+               <font>
+                  <Font name="MV Boli" size="30.0" />
+               </font>
+            </Text>
+            <Text fill="#c7b291" layoutX="469.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A pendulum is a weight suspended from a pivot so that it can swing freely. When a pendulum is displaced sideways from its resting, equilibrium position, it is subject to a restoring force due to gravity that will accelerate it back toward the equilibrium position." wrappingWidth="432.18218994140625">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fill="#522f2a" layoutX="471.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="When released, the restoring force acting on the pendulum's mass causes it to oscillate about the equilibrium position, swinging back and forth. The time for one complete cycle, a left swing and a right swing, is called the period. The period depends on the length of the pendulum and also to a slight degree on the amplitude, the width of the pendulum's swing. From the first scientific investigations of the pendulum around 1602 by Galileo Galilei, the regular motion of pendulums was used for timekeeping, and was the world's most accurate timekeeping technology until the 1930s The pendulum clock invented by Christiaan Huygens in 1658 became the world's standard timekeeper, used in homes and offices for 270 years, and achieved accuracy of about one second per year before it was superseded as a time standard by the quartz clock in the 1930s." wrappingWidth="437.8331298828125">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Button blendMode="DARKEN" mnemonicParsing="false" onAction="#home" prefHeight="91.0" prefWidth="103.0">
+               <graphic>
+                  <ImageView fitHeight="89.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@h.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <HBox layoutX="186.0" layoutY="571.0" prefHeight="0.0" prefWidth="343.0" spacing="500.0">
+               <children>
+                  <Button blendMode="DARKEN" mnemonicParsing="false" prefHeight="39.0" prefWidth="55.0" />
+                  <Button blendMode="DARKEN" mnemonicParsing="false" onAction="#goNext" prefHeight="94.0" prefWidth="92.0">
+                     <graphic>
+                        <ImageView fitHeight="63.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@right.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <ImageView fitHeight="85.0" fitWidth="101.0" layoutX="833.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@s.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="845.0" layoutY="70.0" mnemonicParsing="false" onAction="#sound" opacity="0.0" prefHeight="54.0" prefWidth="72.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="ex.BonusController">
+    <stylesheets>
+        <URL value="@bonus.css" />
+    </stylesheets>
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bcaa99" height="698.0" layoutX="-29.0" layoutY="-57.0" stroke="BLACK" strokeType="INSIDE" width="1047.0" />
+      <ImageView fitHeight="614.0" fitWidth="719.0" layoutX="155.0" layoutY="-19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@quiz1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="88.0" layoutX="718.0" layoutY="406.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@p9.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="463.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bonus" wrappingWidth="160.65625">
+         <font>
+            <Font name="MV Boli" size="48.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="268.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="how does the inventor of the pendulum look like?" wrappingWidth="557.9895629882812">
+         <font>
+            <Font name="MV Boli" size="22.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="dk" fitHeight="119.0" fitWidth="161.0" layoutX="371.0" layoutY="216.0" onMouseClicked="#hy" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@christiaan%20huygens.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pend" fitHeight="100.0" fitWidth="123.0" layoutX="371.0" layoutY="361.0" onMouseClicked="#pend" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@lon2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="newton" fitHeight="119.0" fitWidth="80.0" layoutX="538.0" layoutY="212.0" onMouseClicked="#newton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Newton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ohm" fitHeight="110.0" fitWidth="99.0" layoutX="529.0" layoutY="351.0" onMouseClicked="#ohm" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ohm.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="110.0" layoutX="17.0" layoutY="11.0" onMouseClicked="#home" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@h.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label" layoutX="366.0" layoutY="572.0" prefHeight="55.0" prefWidth="331.0" textFill="#d43131">
+         <font>
+            <Font name="MV Boli" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="100.0" fitWidth="148.0" layoutX="361.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true" visible="false" fx:id="x3">
+         <image>
+            <Image url="@x_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="148.0" layoutX="543.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true" visible="false" fx:id="x2">
+         <image>
+            <Image url="@x_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="148.0" layoutX="538.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true" visible="false" fx:id="x1">
+         <image>
+            <Image url="@x_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="tick" fitHeight="125.0" fitWidth="100.0" layoutX="321.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@tick.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

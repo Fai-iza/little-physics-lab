@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ex.Levl3_starsController">
+    <stylesheets>
+        <URL value="@levl3_stars.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="8.0" layoutY="10.0" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-color: ceb891; -fx-border-color: a48144; -fx-border-width: 10;">
+         <children>
+            <Button layoutX="69.0" layoutY="84.0" mnemonicParsing="false" style="-fx-background-color: ceb891;" />
+            <Button layoutX="777.0" layoutY="29.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="163.0" style="-fx-background-color: ceb891;">
+               <graphic>
+                  <ImageView fitHeight="153.0" fitWidth="173.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@right.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="516.0" fitWidth="666.0" layoutX="191.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Screenshot__37_-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="153.0" fitWidth="173.0" layoutX="50.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@left.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="51.0" layoutY="52.0" mnemonicParsing="false" onAction="#home" opacity="0.0" prefHeight="109.0" prefWidth="150.0" />
+            <Label fx:id="pointslabel" layoutX="353.0" layoutY="424.0" prefHeight="109.0" prefWidth="257.0" textFill="#ef641f">
+               <font>
+                  <Font name="MV Boli" size="26.0" />
+               </font></Label>
+            <Button layoutX="421.0" layoutY="595.0" mnemonicParsing="false" onAction="#gobonuspage" opacity="0.0" prefHeight="25.0" prefWidth="122.0" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="151.0" fitWidth="521.0" layoutX="211.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@AdobeStock_272995543-removebg-preview%20(1).png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label" layoutX="306.0" layoutY="85.0" prefHeight="46.0" prefWidth="384.0" textFill="#d47b15">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

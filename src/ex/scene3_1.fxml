@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ex.Scene3_1Controller">
+   <children>
+      <Pane layoutX="20.0" layoutY="20.0" prefHeight="650.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="691.0" fitWidth="1030.0" layoutX="-26.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@AdobeStock_194993665.jpeg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="119.0" fitWidth="413.0" layoutX="342.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@x.png" />
+               </image>
+            </ImageView>
+            <Text fill="#b95236" layoutX="413.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Georg Simon Ohm ">
+               <font>
+                  <Font name="MV Boli" size="30.0" />
+               </font>
+            </Text>
+            <Text fill="#522f2a" layoutX="455.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Georg Simon Ohm Born16 March 1789Erlangen, Brandenburg-Bayreuth in the Holy Roman Empire  was a German physicist and mathematician. As a school teacher, Ohm began his research with the new electrochemical cell, invented by Italian scientist Alessandro Volta. Using equipment of his own creation, Ohm found that there is a direct proportionality between the potential difference (voltage) applied across a conductor and the resultant electric current. This relationship is known as Ohm's law, and the ohm, the standard unit of electrical resistance, is named after him." wrappingWidth="444.92315673828125">
+               <font>
+                  <Font name="Comic Sans MS" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="107.0" fitWidth="109.0" layoutX="813.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ohm.png" />
+               </image>
+            </ImageView>
+            <Button blendMode="DARKEN" mnemonicParsing="false" onAction="#home" prefHeight="91.0" prefWidth="103.0">
+               <graphic>
+                  <ImageView fitHeight="89.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@h.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <HBox layoutX="186.0" layoutY="571.0" prefHeight="0.0" prefWidth="343.0" spacing="500.0">
+               <children>
+                  <Button blendMode="DARKEN" mnemonicParsing="false" onAction="#goBack" prefHeight="39.0" prefWidth="55.0">
+                     <graphic>
+                        <ImageView fitHeight="66.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@left.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button blendMode="DARKEN" mnemonicParsing="false" prefHeight="94.0" prefWidth="92.0">
+                     <graphic>
+                        <ImageView fitHeight="63.0" fitWidth="58.0" opacity="0.06" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@right.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <ImageView fitHeight="85.0" fitWidth="101.0" layoutX="823.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@s.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="856.0" layoutY="79.0" mnemonicParsing="false" onAction="#sound" opacity="0.0" prefHeight="54.0" prefWidth="62.0" />
+            <Button layoutX="840.0" layoutY="48.0" mnemonicParsing="false" onAction="#sound" opacity="0.0" prefHeight="54.0" prefWidth="62.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
